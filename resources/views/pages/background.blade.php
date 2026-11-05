@@ -1,0 +1,140 @@
+{{-- @extends('layouts.app')
+@section('title', 'Achtergrond - Digitaal in Zicht')
+@section('content')
+<header class="max-w-3xl">
+    <h1 class="text-4xl font-bold text-diz-brand">Achtergrond</h1>
+    <p class="mt-2 text-lg text-slate-600">Het onderzoeksproces, onze bronnen en de data matrix</p>
+</header>
+
+<section class="mt-10">
+    <h2 class="text-2xl font-bold">Ons onderzoeksproces</h2>
+    <p class="mt-3 text-slate-600 max-w-3xl">Het onderzoek is methodologisch opgebouwd in drie vaste stappen.</p>
+    <ol class="mt-6 grid gap-4 md:grid-cols-3">
+        @foreach ([['Literatuurstudie & Veldonderzoek', 'Verzamelen van bestaande data, interviews en rapportages.'], ['Dataverzameling & Analyse', 'Systematisch categoriseren van behoeften, uitsluitingsmechanismen en vaardigheden.'], ['Vertaling naar Minimumstandaarden', 'Bepalen van concrete normen en hiaten binnen het inclusielandschap.']] as $step => [$title, $txt])
+            <li class="bg-white rounded-xl border border-slate-200 p-6">
+                <span class="text-sm font-semibold text-slate-500">Stap {{ $step + 1 }}</span>
+                <h3 class="mt-1 font-bold text-lg">{{ $title }}</h3>
+                <p class="mt-2 text-slate-600">{{ $txt }}</p>
+            </li>
+        @endforeach
+    </ol>
+</section>
+
+<section class="mt-12">
+    <h2 class="text-2xl font-bold">Referentielijst (bronnen)</h2>
+    <ul class="mt-4 bg-white rounded-xl border border-slate-200 divide-y divide-slate-200 max-w-2xl">
+        @foreach (config('diz.sources') as $source)
+            <li><a href="{{ $source['url'] }}" target="_blank" rel="noopener noreferrer" class="flex items-center justify-between px-5 py-4 hover:bg-slate-50">
+                <span>{{ $source['name'] }}</span><x-icon name="external" class="w-5 h-5 text-slate-500"/><span class="sr-only">(opent extern)</span></a></li>
+        @endforeach
+    </ul>
+</section>
+
+<section class="mt-12 rounded-2xl bg-diz-brand text-white p-8 md:p-10">
+    <h2 class="text-2xl font-bold">De Data Matrix</h2>
+    <p class="mt-3 max-w-2xl text-slate-200">De matrix brengt per dimensie in kaart wat er onderzocht is, welke hiaten er zijn en welke minimumstandaarden zijn vastgesteld, inclusief de gebruikte onderzoeksmethode.</p>
+    <div class="mt-6 flex flex-wrap items-center gap-4">
+        <a href="{{ route('matrix') }}" class="inline-flex items-center gap-2 bg-white text-diz-brand font-semibold px-6 py-3 rounded-lg hover:bg-slate-100">Bekijk de Matrix <x-icon name="arrow" class="w-5 h-5"/></a>
+        <a href="{{ route('matrix.download') }}" class="inline-flex items-center gap-2 underline hover:no-underline"><x-icon name="download" class="w-5 h-5"/> Download Excel (.xlsx)</a>
+    </div>
+</section>
+@endsection --}}
+@extends('layouts.app')
+@section('title', 'Achtergrond - Digitaal in Zicht')
+@section('content')
+
+    <div class="max-w-4xl mx-auto px-4 w-full pb-12">
+
+        <header>
+            <h1 class="text-4xl font-bold text-slate-800">Achtergrond</h1>
+            <p class="mt-2 text-lg text-slate-600">Het onderzoeksproces, onze bronnen en de data matrix</p>
+        </header>
+
+        <section class="mt-10">
+            <h2 class="text-2xl font-bold text-slate-800">Ons onderzoeksproces</h2>
+
+            <div
+                class="mt-6 flex flex-col md:flex-row items-start md:items-center gap-4 md:gap-6 text-sm md:text-base font-semibold text-slate-800">
+                <div class="flex items-center gap-3">
+                    <div
+                        class="w-12 h-12 shrink-0 rounded-full bg-[#82B39E] bg-opacity-30 flex items-center justify-center text-[#4B7A66]">
+                        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"></path>
+                        </svg>
+                    </div>
+                    <span class="leading-tight">Literatuurstudie &<br>Veldonderzoek</span>
+                </div>
+
+                <svg class="hidden md:block w-5 h-5 text-slate-400 shrink-0" fill="none" stroke="currentColor"
+                    viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3">
+                    </path>
+                </svg>
+
+                <div class="flex items-center gap-3">
+                    <div
+                        class="w-12 h-12 shrink-0 rounded-full bg-[#5B7B88] text-white flex items-center justify-center text-xl font-bold">
+                        2
+                    </div>
+                    <span class="leading-tight">Dataverzameling &<br>Analyse</span>
+                </div>
+
+                <svg class="hidden md:block w-5 h-5 text-slate-400 shrink-0" fill="none" stroke="currentColor"
+                    viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3">
+                    </path>
+                </svg>
+
+                <div class="flex items-center gap-3">
+                    <div
+                        class="w-12 h-12 shrink-0 rounded-full bg-[#1E3A45] text-white flex items-center justify-center text-xl font-bold">
+                        3
+                    </div>
+                    <span class="leading-tight">Vertaling naar<br>Minimumstandaarden</span>
+                </div>
+            </div>
+
+            <p class="mt-6 text-slate-700">
+                Onze onderzoeksproces rust op de bronnen zijn afkomstig uit stappen en vertalingen van de
+                onderzoeksstandaarden is meting en samenvoeging.
+            </p>
+        </section>
+
+        <section class="mt-12">
+            <h2 class="text-2xl font-bold text-slate-800">Referentielijst (Bronnen)</h2>
+            <ul class="mt-4 divide-y divide-slate-300 border-b border-slate-300 w-full">
+                @foreach (config('diz.sources') as $source)
+                    <li>
+                        <a href="{{ $source['url'] }}" target="_blank" rel="noopener noreferrer"
+                            class="flex items-center justify-between py-3 hover:text-slate-500 transition-colors">
+                            <span class="font-medium text-slate-800">{{ $source['name'] }}</span>
+                            <x-icon name="external" class="w-5 h-5 text-slate-500 shrink-0 ml-4" />
+                            <span class="sr-only">(opent extern)</span>
+                        </a>
+                    </li>
+                @endforeach
+            </ul>
+        </section>
+
+        <section
+            class="mt-12 rounded-2xl bg-[#E6F0EB] border border-[#CCE0D6] p-8 md:p-10 flex flex-col items-center text-center">
+            <h2 class="text-2xl font-bold text-slate-800">De Data Matrix</h2>
+            <p class="mt-3 max-w-2xl text-slate-700">
+                Onze volledige data matrix is gebaseerd op deze onderzoeksbronnen. Ontdek alle minimumstandaarden, hiaten en
+                bevindingen in het interactieve overzicht.
+            </p>
+            <div class="mt-6 flex flex-col items-center gap-4">
+                <a href="{{ route('matrix') }}"
+                    class="inline-flex items-center justify-center bg-[#5B7B88] text-white font-semibold px-8 py-3 rounded-full hover:bg-[#4A6772] transition-colors">
+                    Bekijk de Matrix
+                </a>
+                <a href="{{ route('matrix.download') }}"
+                    class="inline-flex items-center gap-2 font-semibold text-slate-800 hover:underline">
+                    <x-icon name="download" class="w-5 h-5" /> Download het volledige excel document
+                </a>
+            </div>
+        </section>
+
+    </div>
+@endsection

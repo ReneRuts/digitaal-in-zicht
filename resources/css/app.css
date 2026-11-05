@@ -1,0 +1,14 @@
+@import 'tailwindcss';
+
+@source '../../storage/framework/views/*.php';
+@source '../**/*.blade.php';
+@source '../**/*.js';
+
+@theme {
+    --font-sans: 'Inter', ui-sans-serif, system-ui, sans-serif;
+    --color-diz-ink: #1f2937;
+    --color-diz-brand: #1e3a5f;
+    --color-diz-bg: #f8fafc;
+}
+
+[x-cloak] { display: none !important; }
