@@ -38,7 +38,7 @@
                     <ul x-show="themes" x-cloak x-transition
                         class="absolute right-0 mt-1 w-64 bg-white border border-slate-200 rounded-lg shadow-lg py-1 z-20">
                         @foreach ($navDimensions as $d)
-                            <li><a href="{{ route('theme', $d) }}"
+                            <li><a href="{{ route('theme', $d->slug) }}"
                                     class="flex items-center gap-3 px-4 py-2 hover:bg-slate-100">
                                     <span class="w-3 h-3 rounded-full"
                                         style="background: {{ $d->hex }}"></span>{{ $d->name }}</a></li>

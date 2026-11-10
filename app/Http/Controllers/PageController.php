@@ -28,11 +28,6 @@ class PageController extends Controller
         return view('pages.mdls');
     }
 
-    public function theme(Dimension $dimension)
-    {
-        return view('pages.theme', ['dimension' => $dimension->load('cards')]);
-    }
-
     public function matrix()
     {
         return view('pages.matrix', ['dimensions' => Dimension::orderBy('sort')->with('cards')->get()]);
