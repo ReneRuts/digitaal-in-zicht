@@ -196,4 +196,4 @@ Go to **http://digitaal-in-zicht.test**. Optional: run `herd secure` to serve it
 
 ## 📄 Credits
 
-Made for students of **Arteveldehogeschool** by [https://github.com/ReneRuts](René Ruts), in cooperation with the expertise network _Mens, Samenleving & Digitalisering_. All sources are listed on the **Achtergrond** page of the site.
+Made for students of **Arteveldehogeschool** by [René Ruts](https://github.com/ReneRuts), in cooperation with the expertise network _Mens, Samenleving & Digitalisering_. All sources are listed on the **Achtergrond** page of the site.
