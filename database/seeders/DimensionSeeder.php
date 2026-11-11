@@ -27,8 +27,8 @@ class DimensionSeeder extends Seeder
                 ['Elk huishouden heeft toegang tot een geschikt apparaat.', 'Een betaalbare, stabiele internetverbinding is beschikbaar.', 'Openbare, gratis toegangspunten zijn in de buurt aanwezig.']
             ],
             [
-                'kennis-vaardigheden',
-                'Kennis & vaardigheden',
+                'digitale-competenties',
+                'Digitale competenties',
                 'yellow',
                 5,
                 2,

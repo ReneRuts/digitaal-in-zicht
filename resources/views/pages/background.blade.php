@@ -6,12 +6,14 @@
 
         <header>
             <h1 class="text-4xl font-bold text-slate-800">Achtergrond</h1>
-            <p class="mt-2 text-lg text-slate-600">Het onderzoeksproces, onze bronnen en de data matrix</p>
         </header>
 
         <section class="mt-10">
             <h2 class="text-2xl font-bold text-slate-800">Ons onderzoeksproces</h2>
-
+            <p>Ons onderzoeksproces vertrekt in eerste instantie vanuit human-centered design. Daarnaast
+                vormt het double-diamond model de leidraad van het proces. Dit houdt in dat de volgende
+                vier fases doorlopen werden: discover, define, ideate
+                en prototype.</p>
             <div
                 class="mt-6 flex flex-col md:flex-row items-start md:items-center gap-4 md:gap-6 text-sm md:text-base font-semibold text-slate-800">
                 <div class="flex items-center gap-3">

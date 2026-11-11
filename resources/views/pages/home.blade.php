@@ -19,7 +19,7 @@
             <path d="M3 18h18l-1.5-2H4.5z" fill="#cbd5e1" stroke="#1b1f33" stroke-width="1.2" stroke-linejoin="round"/>
         ',
 
-            'kennis-vaardigheden' => '
+            'digitale-competenties' => '
             <!-- Hoofd profiel -->
             <path d="M9 21v-3.5C6 16.5 4.5 14 4.5 11a7.5 7.5 0 0 1 15 0c0 1.2-.2 2.3-.7 3.3l1.2 1.7V19a2 2 0 0 1-2 2H13v0.5z" fill="#cbd5e1" stroke="#1b1f33" stroke-width="1.2" stroke-linejoin="round"/>
             <!-- Gloeilamp in het hoofd -->
@@ -117,9 +117,9 @@
                 'labelY' => 285,
                 'anchor' => 'end',
             ],
-            'kennis-vaardigheden' => [
+            'digitale-competenties' => [
                 'angle' => 300,
-                'label' => 'kennis &amp;<tspan x="160" dy="20">vaardigheden</tspan>',
+                'label' => 'digitale <tspan x="160" dy="20">compententies</tspan>',
                 'labelX' => 160,
                 'labelY' => 125,
                 'anchor' => 'end',
@@ -128,7 +128,7 @@
 
         $rankLabels = [
             'digitale-toegang' => 'digitale<br>toegang',
-            'kennis-vaardigheden' => 'kennis &amp;<br>vaardigheden',
+            'digitale-competenties' => 'digitale<br>compententies',
             'ondersteuningsnetwerk' => 'ondersteunings-<br>netwerk',
             'behoeftes' => 'behoeftes',
             'inclusieve-dienstverlening' => 'inclusieve<br>dienstverlening',
