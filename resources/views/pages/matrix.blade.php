@@ -20,7 +20,7 @@
     <div class="mt-8 overflow-hidden bg-white rounded-xl border border-slate-200">
         <iframe
             src="https://docs.google.com/spreadsheets/d/e/2PACX-1vSlZJmlP-M3x26kCTrb_3KotwqhqDlgczA8sk9uY3SO5XNFD2BVZ6POLjpVs2KjgA/pubhtml?widget=true&amp;headers=false"
-            class="w-full h-175 border-0" title="Matrix Digitaal in zicht" allowfullscreen>
+            class="w-full h-175 border-0" title="Matrix Digitaal in zicht" allowfullscreen>Laden van de matrix...
         </iframe>
     </div>
 @endsection

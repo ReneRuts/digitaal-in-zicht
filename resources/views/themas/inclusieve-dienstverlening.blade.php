@@ -112,18 +112,6 @@
                         toegankelijkheidscriteria overlopen. Na afloop ontvangt de gebruiker een
                         rapport met de resultaten (DigitAll, z.d.).</li>
                 </ul>
-                <footer
-                    class="mt-6 pt-4 border-t border-slate-200 flex items-center justify-between text-sm text-slate-500">
-                    <span>Bron: Barometer Digitale Inclusie 2024</span>
-                    <span class="flex gap-1">
-                        <span title="Veldonderzoek"
-                            class="w-6 h-6 rounded-full bg-green-600 text-white flex items-center justify-center"><x-icon
-                                name="check" class="w-4 h-4" /></span>
-                        <span title="Literatuurstudie"
-                            class="w-6 h-6 rounded-full bg-blue-600 text-white flex items-center justify-center"><x-icon
-                                name="check" class="w-4 h-4" /></span>
-                    </span>
-                </footer>
             </article>
 
             <article class="bg-white rounded-xl p-6 shadow-sm flex flex-col border-t-4" style="border-color: #c8403d">
@@ -170,15 +158,6 @@
                         deze gebruikers ervaren en naar hoe digitale diensten beter kunnen inspelen
                         op hun verschillende toegankelijkheids- en taalbehoeften.</li>
                 </ul>
-                <footer
-                    class="mt-6 pt-4 border-t border-slate-200 flex items-center justify-between text-sm text-slate-500">
-                    <span>Bron: Barometer Digitale Inclusie 2024</span>
-                    <span class="flex gap-1">
-                        <span title="Literatuurstudie"
-                            class="w-6 h-6 rounded-full bg-blue-600 text-white flex items-center justify-center"><x-icon
-                                name="check" class="w-4 h-4" /></span>
-                    </span>
-                </footer>
             </article>
 
             <article class="bg-white rounded-xl p-6 shadow-sm flex flex-col border-t-4" style="border-color: #c8403d">
@@ -230,26 +209,7 @@
                         worden verzameld en waarvoor deze worden gebruikt, zodat iedereen
                         geïnformeerde keuzes kan maken.</li>
                 </ul>
-                <footer
-                    class="mt-6 pt-4 border-t border-slate-200 flex items-center justify-between text-sm text-slate-500">
-                    <span>Bron: MDLS</span>
-                    <span class="flex gap-1">
-                        <span title="Literatuurstudie"
-                            class="w-6 h-6 rounded-full bg-blue-600 text-white flex items-center justify-center"><x-icon
-                                name="check" class="w-4 h-4" /></span>
-                    </span>
-                </footer>
             </article>
         </div>
-    </section>
-
-    <section class="mt-6 flex justify-center items-center gap-6 text-sm" aria-label="Legenda methodologie">
-        <span class="flex items-center gap-2"><span
-                class="w-6 h-6 rounded-full bg-green-600 text-white flex items-center justify-center"><x-icon name="check"
-                    class="w-4 h-4" /></span>Veldonderzoek</span>
-        <span class="text-slate-400">|</span>
-        <span class="flex items-center gap-2"><span
-                class="w-6 h-6 rounded-full bg-blue-600 text-white flex items-center justify-center"><x-icon name="check"
-                    class="w-4 h-4" /></span>Literatuurstudie</span>
     </section>
 @endsection
