@@ -32,12 +32,4 @@ class PageController extends Controller
     {
         return view('pages.matrix', ['dimensions' => Dimension::orderBy('sort')->with('cards')->get()]);
     }
-
-    public function matrixDownload()
-    {
-        $file = config('diz.matrix_file');
-        abort_unless(Storage::disk('public')->exists($file), 404, 'Excel-bestand nog niet geplaatst.');
-
-        return Storage::disk('public')->download($file, 'digitaal-in-zicht-data-matrix.xlsx');
-    }
 }

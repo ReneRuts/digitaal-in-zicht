@@ -11,4 +11,3 @@ Route::get('/themas/{dimension}', fn(Dimension $dimension) => view('themas.' . $
 Route::get('/mdls', [PageController::class, 'mdls'])->name('mdls');
 Route::get('/achtergrond', [PageController::class, 'background'])->name('background');
 Route::get('/matrix', [PageController::class, 'matrix'])->name('matrix');
-Route::get('/matrix/download', [PageController::class, 'matrixDownload'])->name('matrix.download');
