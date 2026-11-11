@@ -6,7 +6,7 @@
 
         <header class="w-full flex flex-col items-center">
             <h1 class="text-4xl md:text-5xl font-bold text-[#79A595]">MDLS</h1>
-            <h2 class="mt-4 text-2xl md:text-3xl font-semibold text-slate-800">Minimum Digitale Living Standards</h2>
+            <h2 class="mt-4 text-2xl md:text-3xl font-semibold text-slate-800">Minimum Digital Living Standards</h2>
         </header>
 
         <section class="mt-6 gap-6 max-w-2xl text-slate-800 font-medium ">
@@ -19,14 +19,14 @@
             <p>
                 Binnen ons project onderzochten we of er in Vlaanderen een gelijkaardig referentiekader bestaat en of zo'n
                 kader ook voor ons land relevant en nuttig zou kunnen zijn. Om een antwoord te bieden op de vraag of een
-                dergelijk referentiekader in Vlaandren bestaat, kunt u onze zes dimensies raadplegen.
+                dergelijk referentiekader in Vlaanderen bestaat, kunt u onze vijf dimensies raadplegen.
             </p>
         </section>
 
         <section
             class="mt-10 rounded-2xl bg-[#E6F0EB] border border-[#CCE0D6] shadow-sm p-8 max-w-3xl w-full flex flex-col items-center justify-center">
             <p class="text-xl font-semibold text-slate-800">
-                Om meer informatie te weten omtrent MDLS volg de link hieronder:
+                Wil je meer weten over de MDLS of de volledige data en criteria bekijken?
             </p>
 
             <a href="{{ config('diz.mdls_url') }}" target="_blank" rel="noopener noreferrer"
