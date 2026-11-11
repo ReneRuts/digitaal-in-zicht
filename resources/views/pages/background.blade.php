@@ -50,7 +50,7 @@
                         class="w-12 h-12 shrink-0 rounded-full bg-[#1E3A45] text-white flex items-center justify-center text-xl font-bold">
                         3
                     </div>
-                    <span class="leading-tight">Vertaling naar<br>Minimumstandaarden</span>
+                    <span class="leading-tight">Ontwikkeling prototype</span>
                 </div>
             </div>
 
