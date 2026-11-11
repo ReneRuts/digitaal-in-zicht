@@ -88,11 +88,11 @@
             <article class="bg-white rounded-xl p-6 shadow-sm flex flex-col border-t-4" style="border-color: #2f4a78">
                 <h3 class="text-lg font-bold">Hiaten</h3>
                 <ul class="mt-4 space-y-2 list-disc pl-5 flex-1">
-                    <li>Tevredenheid over de ondersteuning die de mensen krijgen. “De meeste mensen halen de
+                    <li>Tevredenheid over de ondersteuning die de mensen krijgen. &OpenCurlyDoubleQuote;De meeste mensen halen de
                         hulp uit hun nabije omgeving. In hoeverre zijn ze daar tevreden over die hulp, in hoeverre
                         leren ze daar effectief iets uit of betekent dat gewoon dat de digitale handeling, die ze moeten
                         stellen, dat die gebeurt maar als ze het de volgende keer opnieuw met hulp moeten doen, een
-                        keer daarna ook nog een keer.” (Interview mediawijs)</li>
+                        keer daarna ook nog een keer.&CloseCurlyDoubleQuote; (Interview mediawijs)</li>
                     <li>De overheid neigt ertoe om fysieke dienstverlening af te wentelen op vrijwilligers (bijv. in
                         bibliotheken). Vrijwilligers hebben echter continu ondersteuning, vorming en een betaalde
                         coördinator nodig. Zonder coördinatie sijpelt het aanbod binnen enkele jaren leeg (Interview
