@@ -8,7 +8,10 @@
         </div>
         <div class="flex-1 text-center pr-5 md:pr-20">
             <h1 class="text-3xl font-bold text-diz-brand">Behoeftes</h1>
-            <p class="mt-2 text-slate-600 max-w-2xl mx-auto">Inzicht in de verschillende behoeften van doelgroepen bij het gebruik van digitale middelen en diensten.</p>
+            <p class="mt-2 text-slate-600 max-w-2xl mx-auto">Digitale behoeftes gaan over de concrete ondersteuning,
+                toegankelijkheid en
+                randvoorwaarden die burgers en gezinnen nodig hebben om zonder drempels deel te
+                kunnen nemen aan de digitale samenleving.</p>
         </div>
     </section>
 
@@ -19,14 +22,39 @@
             <article class="bg-white rounded-xl p-6 shadow-sm flex flex-col border-t-4" style="border-color: #e0617f">
                 <h3 class="text-lg font-bold">Onderzocht / Bevindingen</h3>
                 <ul class="mt-4 space-y-2 list-disc pl-5 flex-1">
-                    <li>Behoeften verschillen per doelgroep, zoals ouderen, mensen met een beperking en nieuwkomers.</li>
-                    <li>Persoonlijke begeleiding wordt door veel mensen als voorwaarde genoemd.</li>
+                    <li>64% van de ouders vindt de eigen digitale vaardigheden voldoende om hun kinderen de
+                        nodige digitale ondersteuning te bieden.
+                    </li>
+                    <li>De Digimeter bevraagt individuele volwassenen en stelt dat de resultaten niet zomaar
+                        generaliseerbaar zijn naar het niveau van gezinnen/huishoudens.
+                    </li>
+                    <li>De onderzoekers bevelen aan het leeraanbod aan te passen aan de werkelijke behoeften en
+                        levensomstandigheden van digitaal kwetsbare personen (bijv. kortere lessenreeksen, buiten
+                        werkuren) en consultaties met kwetsbare profielen en organisaties te organiseren.
+                        Algemeen moet regelgeving via maatschappelijke consultatie aansluiten op leefwereld en
+                        noden.
+                    </li>
+                    <li>We weten dat niet-gebruikers zich uitgesloten voelen, dat kwetsbare burgers hulp vragen
+                        aan familie, en maatschappelijk werkers signaleren zware problemen met administratie. Er
+                        is echter weinig inzicht in de tactieken en betekenis die mensen zelf aan hun niet-gebruik
+                        geven.
+                    </li>
+                    <li>Datakluizen maken het makkelijker om belangrijke taken te voltooien (58%) en sneller te
+                        vervullen (64%); 62% wil uitleg over hoe een organisatie hun data gebruikt.
+                    </li>
+                    <li>46% wil duidelijke en stapsgewijze instructies over veilig datadelen; 24% voelt zich
+                        comfortabeler als het delen van data minder complex is.</li>
                 </ul>
-                <footer class="mt-6 pt-4 border-t border-slate-200 flex items-center justify-between text-sm text-slate-500">
+                <footer
+                    class="mt-6 pt-4 border-t border-slate-200 flex items-center justify-between text-sm text-slate-500">
                     <span>Bron: Media &amp; Samenleving (M&amp;S) rapport</span>
                     <span class="flex gap-1">
-                        <span title="Veldonderzoek" class="w-6 h-6 rounded-full bg-green-600 text-white flex items-center justify-center"><x-icon name="check" class="w-4 h-4" /></span>
-                        <span title="Literatuurstudie" class="w-6 h-6 rounded-full bg-blue-600 text-white flex items-center justify-center"><x-icon name="check" class="w-4 h-4" /></span>
+                        <span title="Veldonderzoek"
+                            class="w-6 h-6 rounded-full bg-green-600 text-white flex items-center justify-center"><x-icon
+                                name="check" class="w-4 h-4" /></span>
+                        <span title="Literatuurstudie"
+                            class="w-6 h-6 rounded-full bg-blue-600 text-white flex items-center justify-center"><x-icon
+                                name="check" class="w-4 h-4" /></span>
                     </span>
                 </footer>
             </article>
@@ -34,13 +62,29 @@
             <article class="bg-white rounded-xl p-6 shadow-sm flex flex-col border-t-4" style="border-color: #e0617f">
                 <h3 class="text-lg font-bold">Hiaten</h3>
                 <ul class="mt-4 space-y-2 list-disc pl-5 flex-1">
-                    <li>Doelgroepen worden vaak als één groep onderzocht, waardoor verschillen verdwijnen.</li>
-                    <li>Weinig onderzoek waarin mensen zelf hun behoeften formuleren.</li>
+                    <li>Er is onvoldoende inzicht in hoe de concrete digitale behoeften van verschillende
+                        gezinsleden en specifieke huishoudtypes gezamenlijk in kaart gebracht kunnen worden;
+                        individuele metingen volstaan niet om een heel gezin in kaart te brengen.
+                    </li>
+                    <li>Het is onduidelijk in hoeverre ouders daadwerkelijk in staat zijn om alle concrete
+                        schoolplatformen of taken te ondersteunen, aangezien onderzoeken zich momenteel vooral
+                        baseren op de eigen inschatting van ouders.
+                    </li>
+                    <li>Er is weinig kwalitatief inzicht in de persoonlijke tactieken en de eigen betekenis die burgers
+                        zelf geven aan hun niet-gebruik van digitale middelen; de directe visie van de burger
+                        ontbreekt.
+                    </li>
+                    <li>Het ontbreekt aan concrete, opgelegde richtlijnen voor inclusief ontwerp (zoals bij
+                        datakluizen) en er is onvoldoende data over welke specifieke burgers daadwerkelijk
+                        deelnemen aan co-creatie.</li>
                 </ul>
-                <footer class="mt-6 pt-4 border-t border-slate-200 flex items-center justify-between text-sm text-slate-500">
+                <footer
+                    class="mt-6 pt-4 border-t border-slate-200 flex items-center justify-between text-sm text-slate-500">
                     <span>Bron: Media &amp; Samenleving (M&amp;S) rapport</span>
                     <span class="flex gap-1">
-                        <span title="Literatuurstudie" class="w-6 h-6 rounded-full bg-blue-600 text-white flex items-center justify-center"><x-icon name="check" class="w-4 h-4" /></span>
+                        <span title="Literatuurstudie"
+                            class="w-6 h-6 rounded-full bg-blue-600 text-white flex items-center justify-center"><x-icon
+                                name="check" class="w-4 h-4" /></span>
                     </span>
                 </footer>
             </article>
@@ -48,13 +92,26 @@
             <article class="bg-white rounded-xl p-6 shadow-sm flex flex-col border-t-4" style="border-color: #e0617f">
                 <h3 class="text-lg font-bold">Minimumstandaarden</h3>
                 <ul class="mt-4 space-y-2 list-disc pl-5 flex-1">
-                    <li>Digitale diensten worden ontworpen met en voor diverse doelgroepen.</li>
-                    <li>Er blijft altijd een niet-digitaal alternatief beschikbaar.</li>
+                    <li>Vorming en leeraanbod moeten standaard worden aangepast aan de
+                        levensomstandigheden van digitaal kwetsbare personen (bijv. via kortere lessenreeksen of
+                        lessen buiten de werkuren).
+                    </li>
+                    <li>Regelgeving en nieuw beleid dienen te steunen op maatschappelijke consultatie en
+                        participatief ontwerp (co-creatie) waarbij kwetsbare profielen direct betrokken worden.
+                    </li>
+                    <li>Het ontwerp van digitale interfaces (zoals datakluizen) moet verplicht toegankelijk, minder
+                        complex en voorzien zijn van duidelijke, stapsgewijze instructies.
+                    </li>
+                    <li>Organisaties moeten standaard volledige transparantie en begrijpelijke uitleg bieden over
+                        hoe de data van gebruikers wordt ingezet.</li>
                 </ul>
-                <footer class="mt-6 pt-4 border-t border-slate-200 flex items-center justify-between text-sm text-slate-500">
+                <footer
+                    class="mt-6 pt-4 border-t border-slate-200 flex items-center justify-between text-sm text-slate-500">
                     <span>Bron: MDLS</span>
                     <span class="flex gap-1">
-                        <span title="Literatuurstudie" class="w-6 h-6 rounded-full bg-blue-600 text-white flex items-center justify-center"><x-icon name="check" class="w-4 h-4" /></span>
+                        <span title="Literatuurstudie"
+                            class="w-6 h-6 rounded-full bg-blue-600 text-white flex items-center justify-center"><x-icon
+                                name="check" class="w-4 h-4" /></span>
                     </span>
                 </footer>
             </article>
@@ -62,8 +119,12 @@
     </section>
 
     <section class="mt-6 flex justify-center items-center gap-6 text-sm" aria-label="Legenda methodologie">
-        <span class="flex items-center gap-2"><span class="w-6 h-6 rounded-full bg-green-600 text-white flex items-center justify-center"><x-icon name="check" class="w-4 h-4" /></span>Veldonderzoek</span>
+        <span class="flex items-center gap-2"><span
+                class="w-6 h-6 rounded-full bg-green-600 text-white flex items-center justify-center"><x-icon name="check"
+                    class="w-4 h-4" /></span>Veldonderzoek</span>
         <span class="text-slate-400">|</span>
-        <span class="flex items-center gap-2"><span class="w-6 h-6 rounded-full bg-blue-600 text-white flex items-center justify-center"><x-icon name="check" class="w-4 h-4" /></span>Literatuurstudie</span>
+        <span class="flex items-center gap-2"><span
+                class="w-6 h-6 rounded-full bg-blue-600 text-white flex items-center justify-center"><x-icon name="check"
+                    class="w-4 h-4" /></span>Literatuurstudie</span>
     </section>
 @endsection
