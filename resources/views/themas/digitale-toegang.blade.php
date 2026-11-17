@@ -193,7 +193,6 @@
             <article class="bg-white rounded-xl p-6 shadow-sm flex flex-col border-t-4" style="border-color: #4fa58f">
                 <h3 class="text-lg font-bold">Minimumstandaarden</h3>
                 <ul class="mt-4 space-y-2 list-disc pl-5 flex-1">
-                    <li></li>
                     <li>Elk huishouden beschikt over voldoende en geschikte digitale toestellen, zodat alle
                         gezinsleden de essentiële digitale taken kunnen uitvoeren. Daarbij wordt rekening
                         gehouden met de gezinssamenstelling, de leeftijd van de gezinsleden, doel en

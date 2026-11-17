@@ -92,36 +92,36 @@
             'digitale-toegang' => [
                 'angle' => 0,
                 'label' => 'digitale toegang',
-                'labelX' => 450,
-                'labelY' => 40,
+                'labelX' => 390,
+                'labelY' => 20,
                 'anchor' => 'start',
             ],
             'ondersteuningsnetwerk' => [
                 'angle' => 60,
                 'label' => 'ondersteuningsnetwerk',
-                'labelX' => 540,
-                'labelY' => 125,
+                'labelX' => 500,
+                'labelY' => 110,
                 'anchor' => 'start',
             ],
             'inclusieve-dienstverlening' => [
                 'angle' => 120,
-                'label' => 'inclusieve<tspan x="480" dy="20">dienstverlening</tspan>',
-                'labelX' => 480,
-                'labelY' => 285,
+                'label' => 'inclusieve<tspan x="500" dy="20">dienstverlening</tspan>',
+                'labelX' => 500,
+                'labelY' => 245,
                 'anchor' => 'start',
             ],
             'behoeftes' => [
                 'angle' => 240,
                 'label' => 'behoeftes',
-                'labelX' => 220,
-                'labelY' => 285,
+                'labelX' => 200,
+                'labelY' => 245,
                 'anchor' => 'end',
             ],
             'digitale-competenties' => [
                 'angle' => 300,
-                'label' => 'digitale <tspan x="160" dy="20">compententies</tspan>',
-                'labelX' => 160,
-                'labelY' => 125,
+                'label' => 'digitale <tspan x="180" dy="20">compententies</tspan>',
+                'labelX' => 180,
+                'labelY' => 110,
                 'anchor' => 'end',
             ],
         ];
@@ -135,17 +135,14 @@
         ];
     @endphp
 
-    <section class="mx-auto w-full max-w-4xl px-5">
-        <h1 class="text-3xl font-bold text-[#1b2a4e]">
-            Het platform
-        </h1>
-        <p class="mt-2 max-w-xl text-md leading-snug text-slate-700">
+    <section class="mx-auto w-full max-w-6xl px-5">
+        <h1 class="mt-2 max-w-2xl text-lg font-bold leading-snug text-slate-700">
             Deze website biedt een overzicht van de verschillende dimensies rond digitale inclusie
             en de daarbinnen gevonden informatie/hiaten.
-        </p>
+        </h1>
     </section>
 
-    <section class="mx-auto mt-4 w-full max-w-5xl px-3" aria-label="De vijf dimensies van digitale inclusie">
+    <section class="mx-auto mt-30 w-full max-w-5xl px-3" aria-label="De vijf dimensies van digitale inclusie">
         <div class="mx-auto w-full max-w-4xl">
 
             <svg viewBox="0 0 700 330" class="block h-auto w-full" xmlns="http://www.w3.org/2000/svg" role="img">
@@ -199,8 +196,8 @@
     </section>
 
     <section class="mx-auto mt-12 w-full max-w-7xl px-4">
-        <h2 class="mb-2 md:pl-15 text-sm font-medium text-slate-800">
-            Onderzochte dimensies
+        <h2 class="mb-2 md:pl-15 flex items-center justify-center text-sm font-medium text-slate-800">
+            Deze ranglijst toont aan welke dimensies we tijdens ons onderzoek het meest terugvonden in de literatuur.
         </h2>
 
         <div class="flex flex-wrap items-center justify-center gap-x-3 gap-y-2 text-11 leading-tight text-slate-800">

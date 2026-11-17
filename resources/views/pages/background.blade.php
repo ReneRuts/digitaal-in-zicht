@@ -113,11 +113,12 @@
                 aan te passen is op basis van nieuwe data en nieuw onderzoek.
             </p>
             <div class="mt-6 flex flex-col items-center gap-4">
-                <a href="{{ route('matrix') }}"
+                <a href="https://docs.google.com/spreadsheets/d/e/2PACX-1vQlcAPfJhE4J8kRwdX6EMOESFLfAJ6OFtYkF6QV3-TkUrg0F3QVsj9BW6AVmMgPjPHcd0tQk5ukL25l/pubhtml?widget=true&amp;headers=false"
+                    target="_blank" rel="noopener noreferrer"
                     class="inline-flex items-center justify-center bg-[#5B7B88] text-white font-semibold px-8 py-3 rounded-full hover:bg-[#4A6772] transition-colors">
                     Bekijk de Matrix
                 </a>
-                <a href="https://docs.google.com/spreadsheets/d/e/2PACX-1vSlZJmlP-M3x26kCTrb_3KotwqhqDlgczA8sk9uY3SO5XNFD2BVZ6POLjpVs2KjgA/pub?output=xlsx"
+                <a href="https://docs.google.com/spreadsheets/d/e/2PACX-1vQlcAPfJhE4J8kRwdX6EMOESFLfAJ6OFtYkF6QV3-TkUrg0F3QVsj9BW6AVmMgPjPHcd0tQk5ukL25l/pub?output=xlsx"
                     class="inline-flex items-center gap-2 font-semibold text-slate-800 hover:underline">
                     <x-icon name="download" class="w-5 h-5" /> Download het volledige excel document
                 </a>
